@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="container">
         <div className="footer-container">
           <Fade bottom cascade>
-            <h1>Contact</h1>
-            <h2>{data.contactSubHeading}</h2>
+            <h1>Syed Haider</h1>
           </Fade>
+          <h3>Software Engineer</h3>
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}
           </a>
@@ -26,10 +26,6 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <span>
-            Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a>
-          </span>
         </div>
       </div>
     </div>
